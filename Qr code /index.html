@@ -3,24 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="output.css">
     <title>Qr code component</title>
 </head>
-<body class="h-screen flex items-center justify-center">
-    <main>
-        <div>
-            <img src="img/image-qr-code.png" alt="frontendentor">
+<body class="h-screen bg-lightGray font-outfit flex items-center justify-center">
+    <main class="text-center w-80 p-4 rounded-3xl bg-white">
+        <div class="card">
+            <div class="mb-6">
+                <img class="rounded-xl" src="img/image-qr-code.png" alt="frontendentor">
+            </div>
+    
+            <p class="text-xl font-bold text-darkBlue">
+                Improve your front-end <br>
+                skills by building projects
+            </p>
+    
+            <p class="text-sm my-3 mb-6 font-normal text-grayishBlue" >
+                Scan the QR code to visit Frontend <br>
+                Mentor and take your coding skills to <br>
+                the next level
+            </p>
         </div>
 
-        <p class="">
-            Improve your front-end skills by building projects
-        </p>
-
-        <p>
-            Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-        </p>
     </main>
 </body>
 </html>
